@@ -13,7 +13,7 @@ Then to sync and build:
     curl --create-dirs -L -o .repo/local_manifests/manifest_s3ve3g.xml -O -L https://raw.githubusercontent.com/iBullRay/manifest_s3ve3g/cm-11.0/manifest_s3ve3g.xml
     repo sync
     sh vendor/cm/get-prebuilts
-    brunch a3
+    brunch s3ve3g
 
 Buildbot
 --------
