@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-			
+
     <project path="device/samsung/s3ve3g" name="iBullRay/android_device_samsung_s3ve3g" />
     <project path="vendor/samsung/s3ve3g" name="iBullRay/android_vendor_samsung_s3ve3g" />
     <project path="kernel/samsung/s3ve3g" name="iBullRay/android_kernel_samsung_s3ve3g" />
+	<project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" />
+	<project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" />
+	<project path="hardware/qcom/display-caf-new" name="CyanogenMod/android_hardware_qcom_display-caf-new" />
+	<project path="hardware/qcom/media-caf-new" name="CyanogenMod/android_hardware_qcom_media-caf-new" />
 
 </manifest>
