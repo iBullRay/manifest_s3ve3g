@@ -11,7 +11,6 @@
     <project path="kernel/samsung/s3ve3g" name="iBullRay/android_kernel_samsung_s3ve3g" />
 	<project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" />
 	<project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" />
-	<project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" />
 	<project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" />
 	<project path="hardware/qcom/display-caf-new" name="CyanogenMod/android_hardware_qcom_display-caf-new" />
 	<project path="hardware/qcom/media-caf-new" name="CyanogenMod/android_hardware_qcom_media-caf-new" />
