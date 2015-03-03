@@ -13,11 +13,5 @@ Then to sync and build:
     curl --create-dirs -L -o .repo/local_manifests/manifest_s3ve3g.xml -O -L https://raw.githubusercontent.com/iBullRay/manifest_s3ve3g/cm-11.0/manifest_s3ve3g.xml
     repo sync
     sh vendor/cm/get-prebuilts
-    brunch s3ve3g
-
-Buildbot
---------
-
-This device is built weekly and periodically as changes are committed to ensure the source trees remain buildable.
-
-You can view the current build status at [Jenkins Build-Server](http://jenkins.build-server.com/job/cm-s3ve3g/)
+    lunch cm_s3ve3g-userdebug
+    mka bacon
