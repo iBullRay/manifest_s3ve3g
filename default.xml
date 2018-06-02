@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
     <remote name="aosp-7"
             fetch="https://github.com/iBullRay/"
             revision="refs/heads/aosp-7" />
@@ -8,7 +7,7 @@
     <remote name="lineageos"
             fetch="https://github.com/LineageOS/"
             review="review.lineageos.org"
-            revision="refs/heads/cm-14.1 />
+            revision="refs/heads/cm-14.1" />
 
     <remote name="aosp"
             fetch="https://android.googlesource.com/"
