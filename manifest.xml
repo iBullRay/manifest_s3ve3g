@@ -2,7 +2,10 @@
 <manifest>
 <remote name="cm-14.1" fetch="https://github.com/iBullRay/" revision="refs/heads/cm-14.1" />
 <remote name="lineageos" fetch="https://github.com/LineageOS/" revision="refs/heads/cm-14.1" />
+<remote name="omni" fetch="https://github.com/omnirom/" revision="refs/heads/android-8.1" />
 <!-- Main -->
+<project path="bootable/recovery-twrp" name="android_bootable_recovery" remote="omni" />
+<project path="external/busybox" name="android_external_busybox" remote="lineageos" />
 <project path="device/qcom/common" name="android_device_qcom_common" remote="lineageos" />
 <project path="device/samsung/msm8226-common" name="android_device_samsung_msm8226-common" remote="cm-14.1" />
 <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="lineageos" />

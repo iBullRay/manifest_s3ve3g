@@ -15,3 +15,4 @@ Then to sync and build:
     source build/envsetup.sh
     lunch lineageos_s3ve3gxx-userdebug
     mka bacon
+    If you want to build with TWRP, use this: WITH_TWRP=true mka bacon
